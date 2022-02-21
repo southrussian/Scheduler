@@ -11,6 +11,8 @@
 		5848073727C2EF4C008E4A3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848073627C2EF4C008E4A3C /* ContentView.swift */; };
 		5848073927C2EF4E008E4A3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5848073827C2EF4E008E4A3C /* Assets.xcassets */; };
 		5848073C27C2EF4E008E4A3C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5848073B27C2EF4E008E4A3C /* Preview Assets.xcassets */; };
+		5848074727C2EF8F008E4A3C /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848074627C2EF8F008E4A3C /* Home.swift */; };
+		5848074927C2EFA2008E4A3C /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848074827C2EFA2008E4A3C /* Schedule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		5848073627C2EF4C008E4A3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5848073827C2EF4E008E4A3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5848073B27C2EF4E008E4A3C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5848074627C2EF8F008E4A3C /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		5848074827C2EFA2008E4A3C /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		5848073327C2EF4C008E4A3C /* FITU-3-2aSchedule */ = {
 			isa = PBXGroup;
 			children = (
+				5848074327C2EF6C008E4A3C /* View */,
+				5848074227C2EF60008E4A3C /* Model */,
 				5848073427C2EF4C008E4A3C /* FITU_3_2aScheduleApp.swift */,
 				5848073627C2EF4C008E4A3C /* ContentView.swift */,
 				5848073827C2EF4E008E4A3C /* Assets.xcassets */,
@@ -65,6 +71,22 @@
 				5848073B27C2EF4E008E4A3C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5848074227C2EF60008E4A3C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5848074827C2EFA2008E4A3C /* Schedule.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5848074327C2EF6C008E4A3C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5848074627C2EF8F008E4A3C /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5848073727C2EF4C008E4A3C /* ContentView.swift in Sources */,
+				5848074727C2EF8F008E4A3C /* Home.swift in Sources */,
+				5848074927C2EFA2008E4A3C /* Schedule.swift in Sources */,
 				5848073527C2EF4C008E4A3C /* FITU_3_2aScheduleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
